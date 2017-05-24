@@ -5,15 +5,15 @@ def count_entries(df, col_name='lang'):
     
     # Raise a ValueError if col_name is NOT in DataFrame
     if col_name not in df.columns:
-        raise ValueError('The dataframe does not have a ' + col_name + ' column.')
+        raise ValueError('The DataFrame does not have a ' + col_name + ' column.')
 
-    # Initialize an empty dictionary: langs_count
+    # Initialize an empty dictionary: cols_count
     cols_count = {}
     
     # Extract column from DataFrame: col
     col = df[col_name]
     
-    # Iterate over the column in dataframe
+    # Iterate over the column in DataFrame
     for entry in col:
 
         # If entry is in cols_count, add 1
