@@ -1,5 +1,13 @@
-# Create histogram of life_exp data
-plt.hist(life_exp)
-
-# Display histogram
+# Build histogram with 5 bins
+plt.hist(life_exp,bins=5)
+plt.hist(life_exp,bins=20)
+# Show and clean up plot
 plt.show()
+plt.clf()
+
+# Build histogram with 20 bins
+
+
+# Show and clean up again
+plt.show()
+plt.clf()
