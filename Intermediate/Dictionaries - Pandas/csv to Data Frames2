@@ -1,0 +1,8 @@
+# Import pandas as pd
+import pandas as pd
+
+# Fix import by including index_col
+bikes = pd.read_csv('bikes.csv',index_col=0)
+
+# Print out bikes
+print(bikes)
