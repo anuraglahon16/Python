@@ -1,0 +1,4 @@
+np.mean()
+np.median()
+np.std
+np.corrcoef()
