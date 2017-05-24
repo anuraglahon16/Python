@@ -1,0 +1,7 @@
+#Built in function
+str()
+#user defined function
+def square(a):            #parameter
+      return a*a
+      
+square(4) #argument
