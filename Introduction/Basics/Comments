@@ -1,0 +1,4 @@
+#Testing multiplication
+print(12*4)
+#Addition works too
+print(2+8)
