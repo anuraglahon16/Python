@@ -1,0 +1,12 @@
+#Use the index() method on countries to find the index 
+#Use ind_ger to access the capital
+
+# Definition of countries and capital
+countries = ['india', 'australia', 'germany', 'england']
+capitals = ['new delhi', 'canbera', 'berlin', 'london']
+
+# Get index of 'germany': ind_ger
+ind_ger=countries.index('germany')
+
+# Use ind_ger to print out capital of Germany
+print(capitals[ind_ger])
