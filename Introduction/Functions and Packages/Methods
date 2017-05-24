@@ -1,0 +1,7 @@
+Functions that belong to objects
+list methods
+fam.index("mom")
+fam.count(1.78)
+str methods
+sister.capitalize()
+sister.replace("z","sa")
