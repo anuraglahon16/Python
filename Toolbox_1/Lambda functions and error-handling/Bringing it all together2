@@ -33,7 +33,7 @@ def count_entries(df, col_name='lang'):
 
     # Add except block
     except:
-        print('The dataframe does not have a ' + col_name + ' column.')
+        print('The DataFrame does not have a ' + col_name + ' column.')
 
 # Call count_entries(): result1
 result1 = count_entries(tweets_df, 'lang')
