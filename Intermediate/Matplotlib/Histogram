@@ -1,0 +1,2 @@
+help(plt.hist)
+plt.hist(values,bins= )
