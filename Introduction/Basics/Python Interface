@@ -1,0 +1,3 @@
+#We can add and divide in python this way
+print (6/8)
+print(20+20)
