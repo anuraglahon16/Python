@@ -1,0 +1,15 @@
+Use a for loop to add a new column, named COUNTRY, that contains a uppercase version of the country names in the "country" column.
+You can use the string method upper() for this.
+
+
+# Import cars data
+import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Code for loop that adds COUNTRY column
+for lab,col in cars.iterrows():
+    cars.loc[lab,"COUNTRY"]=col["country"].upper()
+
+
+# Print cars
+print(cars)
