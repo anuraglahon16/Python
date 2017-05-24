@@ -1,0 +1,10 @@
+# Create arrays
+import numpy as np
+my_books = np.array([18.0, 20.0, 10.75, 9.50])
+your_books = np.array([14.0, 24.0, 14.25, 9.0])
+
+# my_books greater than or equal to 15
+print(my_house>=15)
+
+# my_books less than your_books
+print(my_books<your_books)
