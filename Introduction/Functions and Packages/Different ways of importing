@@ -1,0 +1,1 @@
+from scipy.linalg import inv as my_inv
