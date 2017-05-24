@@ -1,0 +1,13 @@
+# Definition of countries and capital
+countries = ['india', 'australia', 'germany', 'england']
+capitals = ['new delhi', 'canbera', 'berlin', 'london']
+
+# From string in countries and capitals, create dictionary europe
+europe={"india":"new delhi",
+"australia":"canbera",
+"germany":"berlin",
+"england":"london"
+}
+
+# Print world
+print(world)
