@@ -1,0 +1,1 @@
+To find out the type of a value or a variable that refers to that value, we can use the type() function
