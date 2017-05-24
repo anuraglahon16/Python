@@ -1,0 +1,10 @@
+Visualization
+Data Structure
+Control Structures
+Case Study
+
+
+import matplotlib.pyplot as plt
+plt.plot(x,y)
+plt.show()
+plt.scatter(x,y)
