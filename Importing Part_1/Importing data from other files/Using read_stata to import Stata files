@@ -1,0 +1,3 @@
+What is the correct way of using the read_stata() function to import disarea.dta into the object df?
+
+df = pd.read_stata('disarea.dta')
