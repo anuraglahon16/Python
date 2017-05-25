@@ -8,7 +8,7 @@ titanic_corrupt.txt, which contains comments after the character '#' is tab-deli
 
 
 
-Import matplotlib.pyplot as plt
+#Import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 
 # Assign filename: file
