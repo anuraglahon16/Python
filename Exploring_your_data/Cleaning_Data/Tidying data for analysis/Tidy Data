@@ -1,0 +1,9 @@
+"Tidy Data" paper by Hadley Wickham,PhD
+Formalize the way we describe the shape of data
+Gives us a goal whwn formatting our data
+"Standard way to organise data values within a dataset"
+
+Principles of tidy data
+--Columns represent seperate variables
+--Rows represent individuals observations
+--Observational units form tables
