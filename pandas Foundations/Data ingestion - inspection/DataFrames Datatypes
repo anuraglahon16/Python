@@ -7,4 +7,4 @@ and infer the total count of 'null' entries, which likely indicates missing data
 best description of this data set from the following:
 
 
-The data is of mixed type, and 9914 of it is missing.
+The data is of mixed type, and 3460 float64s are missing.
