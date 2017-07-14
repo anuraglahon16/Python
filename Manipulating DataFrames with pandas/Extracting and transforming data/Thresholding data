@@ -1,11 +1,8 @@
-# Create the list of row labels: rows
-rows = ['Philadelphia', 'Centre', 'Fulton']
+# Create the boolean array: high_turnout
+high_turnout = election['turnout'] > 70
 
-# Create the list of column labels: cols
-cols = ['winner', 'Obama', 'Romney']
+# Filter the election DataFrame with the high_turnout array: high_turnout_df
+high_turnout_df = election.loc[high_turnout]
 
-# Create the new DataFrame: three_counties
-three_counties = election.loc[rows, cols]
-
-# Print the three_counties DataFrame
-print(three_counties)
+# Print the high_turnout_results DataFrame
+print(high_turnout_df)
