@@ -14,3 +14,4 @@ by_mult = titanic.groupby(['embarked','pclass'])
 count_mult = by_mult['survived'].count()
 
 # Print count_mult
+print(count_mult)
