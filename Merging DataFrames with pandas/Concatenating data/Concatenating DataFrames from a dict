@@ -14,3 +14,7 @@ sales = pd.concat(month_dict)
 
 # Print sales
 print(sales)
+
+# Print all sales by Mediacore
+idx = pd.IndexSlice
+print(sales.loc[idx[:, 'Mediacore'], :])
