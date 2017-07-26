@@ -1,0 +1,18 @@
+# Load the image into an array: image
+image = plt.imread('640px-Unequalized_Hawkes_Bay_NZ.jpg')
+
+# Display image in top subplot using color map 'gray'
+plt.subplot(2,1,1)
+plt.title('Original image')
+plt.axis('off')
+plt.imshow(image, cmap='gray')
+
+# Assign pixels the flattened 1D numpy array image.flatten() 
+pixels = image.flatten()
+
+# Display a histogram of the pixels in the bottom subplot
+plt.subplot(2,1,2)
+plt.xlim((0,255))
+plt.title('Normalized histogram')
+plt.hist(pixels, bins=64, color='red', alpha=0.4, range=(0,256), normed=True)
+plt.show()
