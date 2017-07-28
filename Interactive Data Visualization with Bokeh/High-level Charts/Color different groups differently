@@ -1,0 +1,13 @@
+# Import BoxPlot, output_file, and show
+from bokeh.charts import BoxPlot, output_file, show
+
+# Make a box plot: p
+p = BoxPlot(df, values='female_literacy', label='Continent', color='Continent',
+            title='Female Literacy (grouped by Continent)', legend='bottom_right')
+
+# Set y-axis label
+p.yaxis.axis_label = 'Female literacy (% population)'
+
+# Specify the name of the output_file and show the result
+output_file('boxplot.html')
+show(p)
