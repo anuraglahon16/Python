@@ -1,0 +1,13 @@
+# Import Histogram, output_file, and show from bokeh.charts
+from bokeh.charts import Histogram, output_file, show
+
+# Make the Histogram: p
+p = Histogram(df, 'female_literacy', title='Female Literacy', bins=40)
+
+# Set axis labels
+p.xaxis.axis_label = 'Female Literacy (% population)'
+p.yaxis.axis_label = 'Number of Countries'
+
+# Specify the name of the output_file and show the result
+output_file('histogram.html')
+show(p)
