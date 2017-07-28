@@ -1,0 +1,16 @@
+# Import Scatter, output_file, and show from bokeh.charts
+from bokeh.charts import Scatter, output_file, show
+
+# Make a scatter plot: p
+p = Scatter(df, x='population', y='female_literacy',
+            title='Female Literacy vs Population')
+
+# Set the x-axis label
+p.xaxis.axis_label = 'Population (millions)'
+
+# Set the y-axis label
+p.yaxis.axis_label = 'Female literacy (% population)'
+
+# Specify the name of the output_file and show the result
+output_file('scatterplot.html')
+show(p)
