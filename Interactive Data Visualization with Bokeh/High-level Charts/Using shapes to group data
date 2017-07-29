@@ -1,0 +1,14 @@
+# Import Scatter, output_file, and show from bokeh.charts
+from bokeh.charts import Scatter, output_file, show
+
+# Make a scatter plot such that each continent has a different marker type: p
+p = Scatter(df, x='population', y='female_literacy', color='Continent',
+            marker='Continent', title='Female Literacy vs Population')
+
+# Set x-axis and y-axis labels
+p.xaxis.axis_label = 'Population (millions)'
+p.yaxis.axis_label = 'Female literacy (% population)'
+
+# Specify the name of the output_file and show the result
+output_file('scatterplot.html')
+show(p)
