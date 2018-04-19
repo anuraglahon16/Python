@@ -1,0 +1,14 @@
+# Import pandas and plotting modules
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Convert the date index to datetime
+diet.index = pd.to_datetime(diet.index)
+
+# Plot 2012 data using slicing
+diet['2012'].plot()
+plt.show()
+
+# Plot the entire time series diet and show gridlines
+diet.plot(grid=True)
+plt.show()
